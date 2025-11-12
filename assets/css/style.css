@@ -118,16 +118,4 @@
 .slider-area .hero__caption .hero-text1 span{
   font-size: 17px;
 }
-.logo-text {
-  font-family: "Times New Roman", serif;
-  font-weight: bold;
-  font-size: 48px;
-  letter-spacing: 2px;
-  text-shadow: 
-    1px 1px 0 #000, 
-    -1px -1px 0 #000, 
-    1px -1px 0 #000, 
-    -1px 1px 0 #000,
-    0 0 2px #000;
-  color: white;
-}
+
