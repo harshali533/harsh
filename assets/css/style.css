@@ -120,3 +120,35 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* Fix nav tabs layout for full width project area */
+.project-area .properties__button {
+    float: none !important;
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.project-area .nav-tabs {
+    justify-content: center !important; /* Force center to look balanced */
+    display: flex;
+    flex-wrap: wrap; 
+    border-bottom: 1px solid #ddd; /* Optional: adds a bottom border line for clarity */
+}
+
+.project-area .nav-tabs .nav-link {
+    padding: 10px 40px; /* Increase padding to widen tabs significantly */
+    font-size: 18px; /* Slightly larger text */
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    background: transparent;
+    color: #6c757d;
+}
+
+.project-area .nav-tabs .nav-link.active {
+    color: #ff5f13; /* match theme color */
+    border-bottom: 2px solid #ff5f13;
+    font-weight: 600;
+}
+
+
